@@ -1,3 +1,7 @@
+import './css/bootstrap.css';
+import './css/responsive.css';
+import './css/style.css';
+import'./css/style.css.map';
 
 function Why() {
       return (
@@ -27,7 +31,7 @@ function Why() {
             <header className="header_section">
               <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg custom_nav-container ">
-                  <a className="navbar-brand" href="index.html">
+                  <a className="navbar-brand" href="/home">
                     <span>
                       Neogym
                     </span>
@@ -39,16 +43,16 @@ function Why() {
                     <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
                       <ul className="navbar-nav  ">
                         <li className="nav-item ">
-                          <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                          <a className="nav-link" href="/home">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item active">
-                          <a className="nav-link" href="why.html"> Why us </a>
+                          <a className="nav-link" href="/why"> Why us </a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="trainer.html"> trainers</a>
+                          <a className="nav-link" href="/trainer"> trainers</a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="contact.html"> Contact Us</a>
+                          <a className="nav-link" href="/contact"> Contact Us</a>
                         </li>
                       </ul>
                       <div className="user_option">
